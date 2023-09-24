@@ -17,6 +17,13 @@ impl Perzeptron {
             output_neuron: OutputNeuron::new(),
         }
     }
+
+    pub fn get_length_of_input_neurons_vec(&self) -> usize {
+        self.input_neurons.len()
+    }
+    pub fn get_length_of_weights_vec(&self) -> usize {
+        self.weights.len()
+    }
 }
 
 struct InputNeuron {
