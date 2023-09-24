@@ -1,4 +1,4 @@
-struct Perzeptron {
+pub struct Perzeptron {
     input_neurons: Vec<InputNeuron>,
     weights: Vec<Weight>,
     output_neuron: OutputNeuron,
