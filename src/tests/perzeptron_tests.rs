@@ -22,6 +22,5 @@ fn correct_size_of_weights() {
 fn get_expectect_output() {
     let mut perzeptron = Perzeptron::new(INPUT_SIZE);
     perzeptron.calculate_output();
-    let out = perzeptron.get_output_neuron_value() == true;
-    assert!(out)
+    assert!(perzeptron.get_output_neuron_value())
 }
