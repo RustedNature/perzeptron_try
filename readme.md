@@ -1,1 +1,1 @@
-# My try to modelleing some perzeptrons
+# My try to modell perzeptrons
